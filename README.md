@@ -19,7 +19,7 @@ Visit: https://www.kaggle.com/c/donorschoose-application-screening/
 
 ## Result Summary
 
-#### Classifier model: Linear SVM (Brute implementation) 
+#### Model: Linear SVM (Brute implementation) 
 
 | Set |  Text Featurization |   Hyperparameter: C | AUC_Score |
 |-----|---------------------|------------------|-----------|
