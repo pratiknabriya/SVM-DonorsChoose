@@ -1,6 +1,7 @@
 ## Objective
 To predict whether a Classroom Project proposal will get approved or not using linear Support Vector Classifiers. 
 
+## About DonorsChoose.org
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Right now, a large number of volunteers is needed to manually screen each submission before it's approved to be posted on the DonorsChoose.org website.
 
 Next year, DonorsChoose.org expects to receive close to 500,000 project proposals. As a result, there are three main problems they need to solve:
@@ -19,9 +20,9 @@ Visit: https://www.kaggle.com/c/donorschoose-application-screening/
 
 ## Result Summary
 
-#### Model: Linear SVM (Brute implementation) 
+#### Model: Linear SVC 
 
-| Set |  Text Featurization |   Hyperparameter: C | AUC_Score |
+| Set |  Text vectorization |   Hyperparameter: C | AUC_Score |
 |-----|---------------------|------------------|-----------|
 |  1  |         BOW         |       0.0001      |   0.713   |
 |  2  |        TF-IDF       |        0.01       |   0.718   |
